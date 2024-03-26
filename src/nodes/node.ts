@@ -2,7 +2,6 @@ import bodyParser from "body-parser";
 import express from "express";
 import { BASE_NODE_PORT } from "../config";
 import { NodeState, Value } from "../types";
-import { Value } from "../types";
 import http from "http";
 import { delay } from "../utils";
 
